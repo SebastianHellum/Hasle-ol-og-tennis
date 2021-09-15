@@ -1,0 +1,214 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Space</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Herr+Von+Muellerhoff&display=swap" rel="stylesheet"> 
+  </head>
+  <body>
+
+    <h1> Tennisrakett 2.0 </h1>
+ 
+    <div id ="astronaut">
+        <img src="images/astronaut.jpeg" alt="" width="250">
+    </div>
+    
+    <div id ="astronaut2">
+        <img src="images/astronaut.jpeg" alt="" width="250">
+    </div>
+
+    <div class="infobox">
+        <h1>Stout</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores a aut magni quam error cumque officia et nesciunt odit voluptatibus.</p>
+        <p>"Drakk gammel cider i går kveld, cider fra Sverige med 0,7% (ingenting). Gått ut for 3 mnd siden, synes den smakte rart men tenkte ikke over det og drakk halve. 
+          Våknet idag med mye spytt hele tiden, måtte spytte om igjen og om igjen. Litt uggen. Sjekket flasken nå og såg den var veldig gsmmel .. Lukter forferdelig..   </p>
+        <p>Anonymbruker - 2016 - Kvinneguiden"</p>  
+         <p>330 ML - 4.7%</p>
+         <img src="images/arrow.png" id="arrow" height="300px">
+         
+      </div>
+      <div class="homepagebox"> 
+          <p>Utfør en smash og sjekk ut resten av vår side ved å slå på logoen under.</p>
+        <a href="index.html" class="logo"><img src="images/logo.png" height="300px"></a>
+      </div>
+    
+      
+
+    <style>
+
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+body {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    overflow-x: hidden;
+}
+
+h1 {
+  padding-top: 10%;
+  text-align: center;
+  font-family: 'Russo One', sans-serif;
+  color: #fff;
+  font-size: 8rem;
+  text-shadow: 10px 10px 15px #358FA8;
+}
+
+p{
+        font-family: 'Cabin', sans-serif;
+        font-size: 75px;
+        color: #E8EAE8;
+      }
+
+#astronaut > img {
+  padding-top: 150px;
+  left: 60%;
+  animation: anim 40s linear infinite;
+  position: absolute;
+}
+
+#astronaut2 > img {
+  padding-top: 150px;
+  left: 15%;
+  position: absolute;
+  animation: anim2 40s linear infinite;
+}
+
+@keyframes anim {
+  0% {
+    transform: translateY(0px) translateX(140px);
+  }
+  10%{
+    transform: translateY(30px) translateX(120px) rotate(10deg);
+  }
+  20%{
+    transform: translateY(60px) translateX(100px) rotate(40deg);
+  }
+   30%{
+    transform: translateY(90px) translateX(0px) rotate(80deg);
+  }
+   40%{
+    transform: translateY(120px) translateX(-400px) rotate(160deg);
+  }
+  50% {
+    transform: translateY(150px) translateX(-800px)  rotate(200deg);
+  }
+  60%{
+    transform: translateY(120px) translateX(-1200px)  rotate(250deg);
+  }
+  70%{
+    transform: translateY(90px) translateX(-500px)  rotate(300deg);
+  }
+  80%{
+    transform: translateY(60px) translateX(500px) rotate(360deg);
+  }
+  90%{
+    transform: translateY(30px) translateX(1000px)  rotate(10deg);
+  }
+   100% {
+    transform: translateY(0px) translateX(140px) ;
+  }
+}
+
+@keyframes anim2 {
+  0% {
+    transform: translateY(150px) rotate(-10deg);
+  }
+  10%{
+    transform: translateY(0px) rotate(-10deg);
+  }
+  20%{
+    transform: translateY(-120px) rotate(-20deg);
+  }
+   30%{
+    transform: translateY(-180px) rotate(-10deg);
+  }
+   40%{
+    transform: translateY(-240px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-350px) rotate(-10deg);
+  }
+  60%{
+    transform: translateY(-240px) rotate(0deg);
+  }
+  70%{
+    transform: translateY(-150px) rotate(20deg);
+  }
+  80%{
+    transform: translateY(-100px) rotate(10deg);
+  }
+  90%{
+    transform: translateY(-30px) rotate(0deg);
+  }
+   100% {
+    transform: translateY(150px) rotate(-10deg);
+  }
+}
+
+.infobox {
+  position: relative;
+  width: 700px;
+  height: 1300px;
+  color: black;
+  text-align: center;
+  background: none;
+  display: block;
+  margin: 90% auto 0;
+}
+
+.box {
+  position: relative;
+  width: 700px;
+  height: 700px;
+  background: none;
+  display: block;
+  margin: 10% auto 0;
+  animation: pære 5s linear infinite;
+}
+
+.homepagebox {
+  position: relative;
+  width: 700px;
+  height: 300px;
+  color: black;
+  text-align: center;
+  background: none;
+  display: block;
+  margin: 2600px auto 0;
+}
+
+#arrow {
+  animation: arrow 3s linear infinite;
+}
+
+@keyframes arrow {
+  25%{
+    transform: translateY(-20px); 
+  }
+  50%{
+    transform: translateY(170px);
+  }
+  75%{
+    transform: translateY(100px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+}
+
+@keyframes pære {
+  25%{
+    transform: translateX(200px) translateY(200px); 
+  }
+  50%{
+    transform: translateX(0px) translateY(25px);
+  }
+  75%{
+    transform: translateX(300px) translateY(-300px);
+  }
+  100%{
+    transform: translateX(0px) translateY(0px);
+  }
+}
+
+    </style>
+    </body>
+      </html>

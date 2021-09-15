@@ -1,0 +1,456 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>HØOT i samarbeid med Amnesty</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Herr+Von+Muellerhoff&display=swap" rel="stylesheet"> 
+  </head>
+  <body>
+    <div class="box">
+        <div class="holder">
+            <div class="candle">
+              <div class="blinking-glow"></div>
+              <div class="thread"></div>
+              <div class="glow"></div>
+              <div class="flame"></div>
+            </div>
+          </div>
+          
+    </div>
+    <div class="infobox">
+      <h1>Hasle øl og tennis samarbeider med Amnesty</h1>
+      <p>Caps 2020</p>
+      <p>Noen vil hevde at det å brygge øl er noe av det minst viktige i verden.</p>
+      <p>Derfor ønsker Hasle øl og tennis å bidra til en bedre verden på vår måte. 
+         Ved å motta denne capsen har du bidratt med 200kr til Amnesty sitt arbeid for rettigheter.
+         Takk for at du bidrar til en kulere verden. 
+      </p>
+      <img src="images/count.png" height="100px">
+      <p>Er på vei til Amnesty fra Hasle øl og tennis i 2020, 
+        og forhåpentligvis kan det bli mer i 2021. 
+      </p>  
+       <img src="images/arrow.png" id="arrow" height="300px">
+       
+    </div>
+    <div class="homepagebox"> 
+        <p>Utfør en smash og sjekk ut resten av vår side ved å slå på logoen under.</p>
+      <a href="index.html" class="logo"><img src="images/logo.png" height="300px"></a>
+    </div>
+    <style>
+
+      
+      h1{
+        font-family: 'Cabin', sans-serif;
+        font-size: 150px;
+        color: #FAAF25;
+      }
+
+      p{
+        font-family: 'Cabin', sans-serif;
+        font-size: 75px;
+        color: #E8EAE8;
+      }
+
+      * {
+  box-sizing: border-box;
+}
+
+body {
+  background: #4c1a03;
+}
+
+.infobox {
+  position: relative;
+  width: 700px;
+  height: 1300px;
+  color: black;
+  text-align: center;
+  background: none;
+  display: block;
+  margin: 10% auto 0;
+}
+
+
+img {
+	border: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+.center {
+  width: 1170px;
+  margin: 20px auto 0;
+}
+
+.holder {
+  margin: 12rem auto 0;
+  width: 150px;
+  height: 400px;
+  position: relative;
+}
+
+.holder *, .holder *:before, .holder *:after {
+  position: absolute;
+  content: "";
+}
+
+.candle {
+  bottom: 0;
+  width: 150px;
+  height: 300px;
+  border-radius: 150px / 40px;
+  box-shadow: inset 20px -30px 50px 0 rgba(0, 0, 0, 0.4), inset -20px 0 50px 0 rgba(0, 0, 0, 0.4);
+  background: #190f02;
+  background: -moz-linear-gradient(#e48825, #e78e0e, #833c03, #4c1a03 50%, #1c0900);
+  background: -webkit-linear-gradient(#e48825, #e78e0e, #833c03, #4c1a03 50%, #1c0900);
+  background: -o-linear-gradient(#e48825, #e78e0e, #833c03, #4c1a03 50%, #1c0900);
+  background: -ms-linear-gradient(#e48825, #e78e0e, #833c03, #4c1a03 50%, #1c0900);
+  background: linear-gradient(#e48825, #e78e0e, #833c03, #4c1a03 50%, #1c0900);
+}
+
+.candle:before {
+  width: 100%;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #d47401;
+  background: #b86409;
+  background: -moz-radial-gradient(#eaa121, #8e4901 45%, #b86409 80%);
+  background: -webkit-radial-gradient(#eaa121, #8e4901 45%, #b86409 80%);
+  background: -o-radial-gradient(#eaa121, #8e4901 45%, #b86409 80%);
+  background: -ms-radial-gradient(#eaa121, #8e4901 45%, #b86409 80%);
+  background: radial-gradient(#ffef80, #b86409 60%);
+  background: radial-gradient(#eaa121, #8e4901 45%, #b86409 80%);
+}
+
+.candle:after {
+  width: 34px;
+  height: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  top: 14px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+  background: -moz-radial-gradient(rgba(0, 0, 0, 0.6), transparent 45%);
+  background: -webkit-radial-gradient(rgba(0, 0, 0, 0.6), transparent 45%);
+  background: -o-radial-gradient(rgba(0, 0, 0, 0.6), transparent 45%);
+  background: -ms-radial-gradient(rgba(0, 0, 0, 0.6), transparent 45%);
+  background: radial-gradient(rgba(0, 0, 0, 0.6), transparent 45%);
+}
+
+.thread {  
+  width: 6px;
+  height: 36px;
+  top: -17px;
+  left: 50%;
+  z-index: 1;
+  border-radius: 40% 40% 0 0;
+  transform: translateX(-50%);
+  background: #121212;
+  background: -moz-linear-gradient(#d6994a, #4b232c, #121212, black, #e8bb31 90%);
+  background: -webkit-linear-gradient(#d6994a, #4b232c, #121212, black, #e8bb31 90%);
+  background: -o-linear-gradient(#d6994a, #4b232c, #121212, black, #e8bb31 90%);
+  background: -ms-linear-gradient(#d6994a, #4b232c, #121212, black, #e8bb31 90%);
+  background: linear-gradient(#d6994a, #4b232c, #121212, black, #e8bb31 90%);
+}
+
+.flame {
+  width: 24px;
+  height: 120px;
+  left: 50%;
+  transform-origin: 50% 100%;
+  transform: translateX(-50%);
+  bottom: 100%;
+  border-radius: 50% 50% 20% 20%;
+  background: rgba(255, 255, 255, 1);
+  background: -moz-linear-gradient(white 80%, transparent);
+  background: -webkit-linear-gradient(white 80%, transparent);
+  background: -o-linear-gradient(white 80%, transparent);
+  background: -ms-linear-gradient(white 80%, transparent);
+  background: linear-gradient(white 80%, transparent);
+  animation: moveFlame 6s linear infinite, enlargeFlame 5s linear infinite;
+}
+
+.flame:before {
+  width: 100%;
+  height: 100%;
+  border-radius: 50% 50% 20% 20%;
+  box-shadow: 0 0 15px 0 rgba(247, 93, 0, .4), 0 -6px 4px 0 rgba(247, 128, 0, .7);
+}
+
+@keyframes moveFlame {
+  0%, 100% {
+    transform: translateX(-50%) rotate(-2deg);
+  }
+  50% {
+    transform: translateX(-50%) rotate(2deg);
+  }
+}
+
+@keyframes enlargeFlame {
+  0%, 100% {
+    height: 120px;
+  }
+  50% {
+    height: 140px;
+  }
+}
+
+.glow {
+  width: 26px;
+  height: 60px;
+  border-radius: 50% 50% 35% 35%;
+  left: 50%;
+  top: -48px;
+  transform: translateX(-50%);
+  background: rgba(0, 133, 255, .7);
+  box-shadow: 0 -40px 30px 0 #dc8a0c, 0 40px 50px 0 #dc8a0c, inset 3px 0 2px 0 rgba(0, 133, 255, .6), inset -3px 0 2px 0 rgba(0, 133, 255, .6);
+}
+
+.glow:before {
+  width: 70%;
+  height: 60%;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.35);
+}
+
+.blinking-glow {
+  width: 100px;
+  height: 180px;
+  left: 50%;
+  top: -55%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  background: #ff6000;
+  -webkit-filter: blur(50px);
+  -moz-filter: blur(60px);
+  -o-filter: blur(60px);
+  -ms-filter: blur(60px);
+  filter: blur(60px);
+  animation: blinkIt .1s infinite;
+}
+
+@keyframes blinkIt {
+  50% { opacity: .8;}
+}
+
+.homepagebox {
+  position: relative;
+  width: 700px;
+  height: 300px;
+  color: black;
+  text-align: center;
+  background: none;
+  display: block;
+  margin: 2450px auto 0;
+}
+
+#arrow {
+  animation: arrow 3s linear infinite;
+}
+
+@keyframes arrow {
+  25%{
+    transform: translateY(-20px); 
+  }
+  50%{
+    transform: translateY(170px);
+  }
+  75%{
+    transform: translateY(100px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+}
+
+@keyframes tjommi {
+  25%{
+    transform: translateX(150px) translateY(50px); 
+  }
+  50%{
+    transform: translateX(0px) translateY(25px);
+  }
+  75%{
+    transform: translateX(-150px) translateY(-50px);
+  }
+  100%{
+    transform: translateX(0px) translateY(0px);
+  }
+}
+
+.beer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: none;
+}
+
+.cup {
+  position: absolute;
+  left: 15%;
+  bottom: 0;
+  width: 60%;
+  height: 75%;
+  background: none;
+  border: 20px solid #5D4241;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 10px;
+}
+
+.liquid {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  width: 90%;
+  height: 70%;
+  background: #FAAF25;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+.stripe-1 {
+  position: absolute;
+  bottom: 10%;
+  left: 15%;
+  width: 10%;
+  height: 60%;
+  border-radius: 50px;
+  background: #5D4241;
+}
+
+.stripe-2 {
+  position: absolute;
+  bottom: 10%;
+  left: 45%;
+  width: 10%;
+  height: 60%;
+  border-radius: 50px;
+  background: #5D4241;
+}
+
+.stripe-3 {
+  position: absolute;
+  bottom: 10%;
+  right: 15%;
+  width: 10%;
+  height: 60%;
+  border-radius: 50px;
+  background: #5D4241;
+}
+
+.cup-holder {
+  position: absolute;
+  top: 35%;
+  right: 5%;
+  width: 50%;
+  height: 45%;
+  background: none;
+  border: 25px solid #5D4241;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 50%;
+  -webkit-clip-path: polygon(56% 0, 100% 0, 100% 100%, 56% 100%);
+  clip-path: polygon(56% 0, 100% 0, 100% 100%, 56% 100%);
+}
+
+.foam {
+  position: absolute;
+  left: 15%;
+  top: 0;
+  width: 60%;
+  height: 25%;
+  transform: scale(1.1);
+}
+
+.foam-1 {
+  position: absolute;
+  left: 8%;
+  bottom: -2%;
+  width: 32%;
+  height: 70%;
+  border-radius: 50%;
+  border-bottom-left-radius: 0;
+  border: 20px solid #5D4241;
+  -webkit-clip-path: polygon(0 65%, 0 0, 75% 0, 75% 25%);
+  clip-path: polygon(0 65%, 0 0, 75% 0, 75% 25%);
+}
+
+.foam-2 {
+  position: absolute;
+  left: 29%;
+  bottom: 0;
+  width: 40%;
+  height: 85%;
+  border-radius: 50%;
+  border: 20px solid #5D4241;
+  -webkit-clip-path: polygon(0 45%, 0 0, 100% 0, 100% 45%);
+  clip-path: polygon(0 45%, 0 0, 100% 0, 100% 45%);
+}
+
+.foam-3 {
+  position: absolute;
+  right: 10%;
+  bottom: -2%;
+  width: 32%;
+  height: 70%;
+  border-radius: 50%;
+  border-bottom-left-radius: 0;
+  border: 20px solid #5D4241;
+  -webkit-clip-path: polygon(0 65%, 0 0, 75% 0, 75% 25%);
+  clip-path: polygon(0 65%, 0 0, 75% 0, 75% 25%);
+  transform: scaleX(-1);
+}
+
+.bubbles-1 {
+  position: absolute;
+  top: 5%;
+  right: 38%;
+  width: 8%;
+  height: 8%;
+  background: #5D4241;
+  border-radius: 50%;
+  transition: all 0.5s;
+  animation: bubbling 2s infinite linear;
+}
+
+.bubbles-2 {
+  position: absolute;
+  top: 0%;
+  left: 38%;
+  width: 8%;
+  height: 8%;
+  background: #5D4241;
+  border-radius: 50%;
+  transition: all 0.5s;
+  animation: bubbling 1s infinite linear;
+}
+
+.bubbles-3 {
+  position: absolute;
+  top: 0%;
+  left: 25%;
+  width: 8%;
+  height: 8%;
+  background: #5D4241;
+  border-radius: 50%;
+  transition: all 0.5s;
+  animation: bubbling 2s infinite linear;
+}
+
+@keyframes bubbling {
+  0% {
+    transform: scale(1) tanslateY(0);
+  }
+  100% {
+    transform: scale(0) translate(0, -250px);
+  }
+}
+
+
+    </style>
+    </body>
+      </html>

@@ -1,0 +1,286 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Fyll, røkelse og myrra</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Herr+Von+Muellerhoff&display=swap" rel="stylesheet"> 
+  </head>
+  <body>
+    <div class="box">
+      <img src="images/tjommijulenisse.png" height="700px">
+    </div>
+    <div class="infobox">
+      <h1>FYLL, RØKELSE OG MYRRA</h1>
+      <p>Juleøl 2020</p>
+      <p>Denne inneholder et innslag av malt og sødme, med smak av appelsin og brunt sukker. En delikat ettersmak av sjokolade og nøtter.</p>
+      <p>Julen er en tid der jeg MÅ drikke masse. Jeg hamster inn juleøl i store mengder og sorter. 30 øl og 0,5 l likør skal fordeles på julaften, 1.juledag og 2.juledag. 
+         Er dette unormalt mye? </p>
+      <p>Anonymbruker - 2014 - Kvinneguiden</p>  
+       <p>330 ML - 4%</p>
+       <img src="images/arrow.png" id="arrow" height="300px">
+       
+    </div>
+    <div class="homepagebox"> 
+        <p>Utfør en smash og sjekk ut resten av vår side ved å slå på logoen under.</p>
+      <a href="index.html" class="logo"><img src="images/logo.png" height="300px"></a>
+    </div>
+    <style>
+
+      
+      h1{
+        font-family: 'Cabin', sans-serif;
+        font-size: 150px;
+        color: #FAAF25;
+      }
+
+      p{
+        font-family: 'Cabin', sans-serif;
+        font-size: 75px;
+        color: #E8EAE8;
+      }
+
+      * {
+  box-sizing: border-box;
+}
+
+body {
+  background: #C63700;
+}
+
+.infobox {
+  position: relative;
+  width: 700px;
+  height: 1300px;
+  color: black;
+  text-align: center;
+  background: none;
+  display: block;
+  margin: 10% auto 0;
+}
+
+.box {
+  position: relative;
+  width: 700px;
+  height: 700px;
+  background: none;
+  display: block;
+  margin: 10% auto 0;
+  animation: tjommi 5s linear infinite;
+}
+
+.homepagebox {
+  position: relative;
+  width: 700px;
+  height: 300px;
+  color: black;
+  text-align: center;
+  background: none;
+  display: block;
+  margin: 2150px auto 0;
+}
+
+#arrow {
+  animation: arrow 3s linear infinite;
+}
+
+@keyframes arrow {
+  25%{
+    transform: translateY(-20px); 
+  }
+  50%{
+    transform: translateY(170px);
+  }
+  75%{
+    transform: translateY(100px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+}
+
+@keyframes tjommi {
+  25%{
+    transform: translateX(150px) translateY(50px); 
+  }
+  50%{
+    transform: translateX(0px) translateY(25px);
+  }
+  75%{
+    transform: translateX(-150px) translateY(-50px);
+  }
+  100%{
+    transform: translateX(0px) translateY(0px);
+  }
+}
+
+.beer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: none;
+}
+
+.cup {
+  position: absolute;
+  left: 15%;
+  bottom: 0;
+  width: 60%;
+  height: 75%;
+  background: none;
+  border: 20px solid #5D4241;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 10px;
+}
+
+.liquid {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  width: 90%;
+  height: 70%;
+  background: #FAAF25;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+.stripe-1 {
+  position: absolute;
+  bottom: 10%;
+  left: 15%;
+  width: 10%;
+  height: 60%;
+  border-radius: 50px;
+  background: #5D4241;
+}
+
+.stripe-2 {
+  position: absolute;
+  bottom: 10%;
+  left: 45%;
+  width: 10%;
+  height: 60%;
+  border-radius: 50px;
+  background: #5D4241;
+}
+
+.stripe-3 {
+  position: absolute;
+  bottom: 10%;
+  right: 15%;
+  width: 10%;
+  height: 60%;
+  border-radius: 50px;
+  background: #5D4241;
+}
+
+.cup-holder {
+  position: absolute;
+  top: 35%;
+  right: 5%;
+  width: 50%;
+  height: 45%;
+  background: none;
+  border: 25px solid #5D4241;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 50%;
+  -webkit-clip-path: polygon(56% 0, 100% 0, 100% 100%, 56% 100%);
+  clip-path: polygon(56% 0, 100% 0, 100% 100%, 56% 100%);
+}
+
+.foam {
+  position: absolute;
+  left: 15%;
+  top: 0;
+  width: 60%;
+  height: 25%;
+  transform: scale(1.1);
+}
+
+.foam-1 {
+  position: absolute;
+  left: 8%;
+  bottom: -2%;
+  width: 32%;
+  height: 70%;
+  border-radius: 50%;
+  border-bottom-left-radius: 0;
+  border: 20px solid #5D4241;
+  -webkit-clip-path: polygon(0 65%, 0 0, 75% 0, 75% 25%);
+  clip-path: polygon(0 65%, 0 0, 75% 0, 75% 25%);
+}
+
+.foam-2 {
+  position: absolute;
+  left: 29%;
+  bottom: 0;
+  width: 40%;
+  height: 85%;
+  border-radius: 50%;
+  border: 20px solid #5D4241;
+  -webkit-clip-path: polygon(0 45%, 0 0, 100% 0, 100% 45%);
+  clip-path: polygon(0 45%, 0 0, 100% 0, 100% 45%);
+}
+
+.foam-3 {
+  position: absolute;
+  right: 10%;
+  bottom: -2%;
+  width: 32%;
+  height: 70%;
+  border-radius: 50%;
+  border-bottom-left-radius: 0;
+  border: 20px solid #5D4241;
+  -webkit-clip-path: polygon(0 65%, 0 0, 75% 0, 75% 25%);
+  clip-path: polygon(0 65%, 0 0, 75% 0, 75% 25%);
+  transform: scaleX(-1);
+}
+
+.bubbles-1 {
+  position: absolute;
+  top: 5%;
+  right: 38%;
+  width: 8%;
+  height: 8%;
+  background: #5D4241;
+  border-radius: 50%;
+  transition: all 0.5s;
+  animation: bubbling 2s infinite linear;
+}
+
+.bubbles-2 {
+  position: absolute;
+  top: 0%;
+  left: 38%;
+  width: 8%;
+  height: 8%;
+  background: #5D4241;
+  border-radius: 50%;
+  transition: all 0.5s;
+  animation: bubbling 1s infinite linear;
+}
+
+.bubbles-3 {
+  position: absolute;
+  top: 0%;
+  left: 25%;
+  width: 8%;
+  height: 8%;
+  background: #5D4241;
+  border-radius: 50%;
+  transition: all 0.5s;
+  animation: bubbling 2s infinite linear;
+}
+
+@keyframes bubbling {
+  0% {
+    transform: scale(1) tanslateY(0);
+  }
+  100% {
+    transform: scale(0) translate(0, -250px);
+  }
+}
+
+
+    </style>
+    </body>
+      </html>

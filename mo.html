@@ -1,20 +1,18 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Dom Pærignon</title>
+    <title>Mo</title>
     <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Herr+Von+Muellerhoff&display=swap" rel="stylesheet"> 
   </head>
   <body>
     <div class="box">
-      <img src="images/pear.png" height="700px">
+      <img src="images/pixelMorell.png" height="700px">
     </div>
     <div class="infobox">
-      <h1>Dom Pærignon</h1>
-      <p>Pærecider</p>
-      <p>Fra de saftigste pærene kommer den beste pærecideren. Du får her en cider som har en søt pæresmak som vil tilfredstille enhver tørst. Så leskende at denne anbefales under intense kamper.</p>
-      <p>Drakk gammel cider i går kveld, cider fra Sverige med 0,7% (ingenting). Gått ut for 3 mnd siden, synes den smakte rart men tenkte ikke over det og drakk halve. 
-        Våknet idag med mye spytt hele tiden, måtte spytte om igjen og om igjen. Litt uggen. Sjekket flasken nå og såg den var veldig gsmmel .. Lukter forferdelig..   </p>
-      <p>Anonymbruker - 2016 - Kvinneguiden</p>  
+      <h1>Mo</h1>
+      <p>Morelløl</p>
+      <p>Kan man lage øl med moreller? Seff kan man det. Disse morellene kommer fra Mo gård i Lærdal, og er av ypperste kvalitet.</p>
+      <p>Satt sammen med en hveteøl med sin gylne farge, fyldig smak og med aroma av vanilje. Må jo bli bra dette! </p>
        <p>330 ML - 4.7%</p>
        <img src="images/arrow.png" id="arrow" height="300px">
        
@@ -29,13 +27,13 @@
       h1{
         font-family: 'Cabin', sans-serif;
         font-size: 150px;
-        color: #FAAF25;
+        color: #6b0303;
       }
 
       p{
         font-family: 'Cabin', sans-serif;
         font-size: 75px;
-        color: #E8EAE8;
+        color: #6b0303;
       }
 
       * {
@@ -43,7 +41,7 @@
 }
 
 body {
-  background: #306334;
+  background: #FCCDCD;
 }
 
 .infobox {
@@ -64,7 +62,11 @@ body {
   background: none;
   display: block;
   margin: 10% auto 0;
-  animation: pære 5s linear infinite;
+  animation: beat .55s infinite alternate;
+}
+
+@keyframes beat{
+	to { transform: scale(1.2); }
 }
 
 .homepagebox {
@@ -75,7 +77,7 @@ body {
   text-align: center;
   background: none;
   display: block;
-  margin: 2600px auto 0;
+  margin: 1000px auto 0;
 }
 
 #arrow {
@@ -96,22 +98,6 @@ body {
     transform: translateY(0px);
   }
 }
-
-@keyframes pære {
-  25%{
-    transform: translateX(200px) translateY(200px); 
-  }
-  50%{
-    transform: translateX(0px) translateY(25px);
-  }
-  75%{
-    transform: translateX(300px) translateY(-300px);
-  }
-  100%{
-    transform: translateX(0px) translateY(0px);
-  }
-}
-
 
 
     </style>

@@ -1,4 +1,7 @@
 # Hasle øl og tennis 🍺
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+
+
 #### Welcome to the brewery 🍻
 This is the site for the brewery Hasle øl og tennis, which is driven by Åsmund and Seb, and our mascot Tjommi 🐶.\
 We make beer in all different beer styles, even sour ales. And sometimes people like what we make.
